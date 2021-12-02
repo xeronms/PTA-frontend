@@ -1,3 +1,7 @@
+import React, {useEffect, useState} from 'react';
+import ReactDOM from 'react-dom';
+
+import {Map} from '@esri/react-arcgis';
 import {loadArcGISModules} from '@deck.gl/arcgis';
 import {GeoJsonLayer, ArcLayer} from '@deck.gl/layers';
 
@@ -5,53 +9,76 @@ import {GeoJsonLayer, ArcLayer} from '@deck.gl/layers';
 const AIR_PORTS =
   'https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_airports.geojson';
 
-loadArcGISModules(['esri/Map', 'esri/views/MapView']).then(({DeckLayer, modules}) => {
-  const [ArcGISMap, MapView] = modules;
-  const layer = new DeckLayer({
-    effect: 'bloom(1.5, 0.5px, 0.1)',
-    'deck.getTooltip': info => info.object && info.object.properties.name,
-    'deck.layers': [
-      new GeoJsonLayer({
-        id: 'airports',
-        data: AIR_PORTS,
-        // Styles
-        filled: true,
-        pointRadiusMinPixels: 2,
-        pointRadiusScale: 2000,
-        getPointRadius: f => 11 - f.properties.scalerank,
-        getFillColor: [200, 0, 80, 180],
-        // Interactive props
-        pickable: true,
-        autoHighlight: true,
-        onClick: info =>
-          info.object &&
-          // eslint-disable-next-line
-          alert(`${info.object.properties.name} (${info.object.properties.abbrev})`)
-      }),
-      new ArcLayer({
-        id: 'arcs',
-        data: AIR_PORTS,
-        dataTransform: d => d.features.filter(f => f.properties.scalerank < 4),
-        // Styles
-        getSourcePosition: f => [-0.4531566, 51.4709959], // London
-        getTargetPosition: f => f.geometry.coordinates,
-        getSourceColor: [0, 128, 200],
-        getTargetColor: [200, 0, 80],
-        getWidth: 1
-      })
-    ]
-  });
+// A React wrapper around https://deck.gl/docs/api-reference/arcgis/deck-layer
+function DeckGLLayer(props) {
+  const [layer, setLayer] = useState(null);
 
-  // In the ArcGIS API for JavaScript the MapView is responsible
-  // for displaying a Map, which usually contains at least a basemap.
-  // eslint-disable-next-line
-  const mapView = new MapView({
-    container: 'viewDiv',
-    map: new ArcGISMap({
-      basemap: 'dark-gray-vector',
-      layers: [layer]
+  useEffect(() => {
+    let deckLayer;
+    loadArcGISModules().then(({DeckLayer}) => {
+      deckLayer = new DeckLayer({});
+      setLayer(deckLayer);
+      props.map.add(deckLayer);
+    });
+
+    // clean up
+    return () => deckLayer && props.map.remove(deckLayer);
+  }, []);
+
+  if (layer) {
+    layer.deck.set(props);
+  }
+
+  return null;
+}
+
+function App() {
+  const layers = [
+    new GeoJsonLayer({
+      id: 'airports',
+      data: AIR_PORTS,
+      // Styles
+      filled: true,
+      pointRadiusMinPixels: 2,
+      pointRadiusScale: 2000,
+      getPointRadius: f => 11 - f.properties.scalerank,
+      getFillColor: [200, 0, 80, 180],
+      // Interactive props
+      pickable: true,
+      autoHighlight: true,
+      onClick: info =>
+        info.object &&
+        // eslint-disable-next-line
+        alert(`${info.object.properties.name} (${info.object.properties.abbrev})`)
     }),
-    center: [0.119167, 52.205276],
-    zoom: 5
-  });
-});
+    new ArcLayer({
+      id: 'arcs',
+      data: AIR_PORTS,
+      dataTransform: d => d.features.filter(f => f.properties.scalerank < 4),
+      // Styles
+      getSourcePosition: f => [-0.4531566, 51.4709959], // London
+      getTargetPosition: f => f.geometry.coordinates,
+      getSourceColor: [0, 128, 200],
+      getTargetColor: [200, 0, 80],
+      getWidth: 1
+    })
+  ];
+
+  return (
+    <Map
+      mapProperties={{basemap: 'dark-gray-vector'}}
+      viewProperties={{
+        center: [0.119167, 52.205276],
+        zoom: 5
+      }}
+    >
+      <DeckGLLayer
+        getTooltip={info => info.object && info.object.properties.name}
+        layers={layers}
+      />
+    </Map>
+  );
+}
+
+/* global document */
+ReactDOM.render(<App />, document.getElementById('root'));
