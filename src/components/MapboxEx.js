@@ -7,15 +7,14 @@ const AIR_PORTS =
     'https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_airports.geojson';
 
 const INITIAL_VIEW_STATE = {
-    latitude: 51.47,
-    longitude: 0.45,
-    zoom: 4,
+    latitude: 50.0928,
+    longitude: 18.5444,
+    zoom: 13.08,
     bearing: 0,
     pitch: 30,
 };
 
-const MAP_STYLE =
-    'https://basemaps.cartocdn.com/gl/positron-nolabels-gl-style/style.json';
+const MAP_STYLE = 'mapbox://styles/mapbox/streets-v11';
 const NAV_CONTROL_STYLE = {
     position: 'absolute',
     top: 10,

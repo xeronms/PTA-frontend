@@ -10,7 +10,9 @@ function App() {
             <Row>
                 <Col md={3}>asdfzsdf</Col>
                 <Col md={9}>
-                    <MapboxEx></MapboxEx>
+                    <div>
+                        <MapboxEx></MapboxEx>
+                    </div>
                 </Col>
             </Row>
         </div>
