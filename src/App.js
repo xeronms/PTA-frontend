@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavbarComponent from './components/NavbarComponent';
 import { Container } from 'react-bootstrap';
 import MapContainer from './pages/MapContainer';
-import Home from './pages/Home';
 import * as dfd from 'danfojs/dist/index';
 
 function App() {
@@ -28,8 +27,7 @@ function App() {
           style={{ height: '95vh', minWidth: '100%', width: '100%' }}>
           <NavbarComponent></NavbarComponent>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/map" element={<MapContainer />} />
+            <Route path="/" element={<MapContainer />} />
           </Routes>
         </Container>
       </div>
