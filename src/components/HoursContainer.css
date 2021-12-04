@@ -5,3 +5,11 @@
   top: 50px;
   width: 10%;
 }
+
+.slider {
+  writing-mode: bt-lr; /* IE */
+  -webkit-appearance: slider-vertical; /* WebKit */
+  width: 50px;
+  height: 500px;
+  padding: 0 24px;
+}
