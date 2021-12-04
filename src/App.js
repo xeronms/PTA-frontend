@@ -4,8 +4,22 @@ import NavbarComponent from './components/NavbarComponent';
 import { Container } from 'react-bootstrap';
 import MapContainer from './pages/MapContainer';
 import Home from './pages/Home';
+import * as dfd from "danfojs/dist/index";
 
 function App() {
+
+    function load_csv() {
+      // const dfd = require('danfojs-node')
+      dfd.read_csv('Dane_Ostateczne_1.csv')
+        .then(async(df) => {
+          df['Przystanek_Początkowy'].head().print()
+          }).catch(err => {
+          console.log(err);
+        })
+    }
+    load_csv()
+
+
     return (
         <Router>
             <div className='overflow-hidden'>
