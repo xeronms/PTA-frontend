@@ -2,7 +2,7 @@
   "name": "pta-front",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://fungy.band",
+  "homepage": "http://fungy.band",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^11.2.7",
