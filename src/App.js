@@ -1,22 +1,18 @@
-import './App.css';
-import MapboxEx from './components/MapboxEx';
-import NavbarComponent from './components/Navbar';
-import { Col, Row } from 'react-bootstrap';
+import React from 'react';
+import Map from './components/Map';
+import Navbar from './components/Navbar';
+import HoursContainer from './components/HoursContainer';
+import FiltersContainer from './components/FiltersContainer';
 
-function App() {
-    return (
-        <div className='App'>
-            <NavbarComponent></NavbarComponent>
-            <Row>
-                <Col md={3}>asdfzsdf</Col>
-                <Col md={9}>
-                    <div>
-                        <MapboxEx></MapboxEx>
-                    </div>
-                </Col>
-            </Row>
-        </div>
-    );
-}
+const App = () => {
+  return (
+    <div>
+      <Navbar></Navbar>
+      <HoursContainer></HoursContainer>
+      <Map></Map>
+      <FiltersContainer></FiltersContainer>
+    </div>
+  );
+};
 
 export default App;

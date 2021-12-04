@@ -1,0 +1,50 @@
+.navStyle {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  background: rgb(37, 37, 37);
+  justify-content: center;
+  align-items: center;
+}
+
+.spacerOneStyle {
+  flex: 0.7;
+}
+
+.spacerTwoStyle {
+  flex: 1;
+}
+
+.logoStyle {
+  padding: 5px;
+  margin: 5px;
+  color: white;
+}
+
+.buttonStyle {
+  padding: 5px 50px;
+  margin: 5px 10px;
+  color: white;
+  font-weight: 500;
+  font-size: x-large;
+}
+
+.buttonStyle:hover {
+  padding: 5px 50px;
+  margin: 5px 10px;
+  color: white;
+  font-weight: 500;
+  font-size: x-large;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px lightgray;
+}
+
+.line {
+  background: white;
+  height: 60%;
+  width: 2px;
+  border-radius: 5px;
+}
