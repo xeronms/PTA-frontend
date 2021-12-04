@@ -49,6 +49,7 @@ const MapboxEx = () => {
             getElevation: 3000,
             autoHighlight: true,
 
+            strokeWeight: 30,
             stroked: false,
             opacity: 0.8,
             wireframe: true,
@@ -56,13 +57,14 @@ const MapboxEx = () => {
         }),
         new HexagonLayer({
             id: 'hexagon-layer',
-            // data: busStops,
-            data: testData,
+            data: busStops,
+            // data: testData,
             pickable: true,
             extruded: true,
             radius: 200,
             elevationScale: 4,
-            getPosition: (d) => d.COORDINATES,
+
+            getPosition: (d) => d.geometry.coordinates,
         }),
         // new ArcLayer({
         //     id: 'arcs',

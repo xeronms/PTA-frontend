@@ -7,7 +7,6 @@
         "@id": "node/474493167",
         "highway": "bus_stop",
         "name": "Rybnik Niewiadom Kolonia Beata",
-        "network": "Zarząd Transportu Zbiorowego w Rybniku",
         "public_transport": "platform"
       },
       "geometry": {
