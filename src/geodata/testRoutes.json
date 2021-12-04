@@ -1,0 +1,20 @@
+[
+    {
+        "inbound": 72633,
+        "outbound": 74735,
+        "from": {
+            "name": "Przystanek 1",
+            "coordinates": [
+                18.4781511,
+                50.080914
+            ]
+        },
+        "to": {
+            "name": "Przystanek 2",
+            "coordinates": [
+                18.544012,
+                50.0901108
+            ]
+        }
+    }
+]

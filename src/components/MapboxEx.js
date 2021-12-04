@@ -1,5 +1,5 @@
 import { StaticMap, MapContext, NavigationControl } from 'react-map-gl';
-import DeckGL, { GeoJsonLayer, ArcLayer, HexagonLayer } from 'deck.gl';
+import DeckGL, { GeoJsonLayer, LineLayer } from 'deck.gl';
 import busStops from '../geodata/bus_stops.geojson';
 import testData from '../geodata/testData.json';
 import testData2 from '../geodata/testData2.json';
@@ -29,9 +29,7 @@ const MapboxEx = () => {
     const onClick = (info) => {
         if (info.object) {
             // eslint-disable-next-line
-            alert(
-                `${info.object.properties.name} (${info.object.properties.abbrev})`
-            );
+            alert(`${info.object.properties.name}`);
         }
     };
 
@@ -39,8 +37,6 @@ const MapboxEx = () => {
         new GeoJsonLayer({
             id: 'busstops',
             // data: busStops,
-            // data: testData2,
-            // data: testData3,
             data: busDataPolygons,
             // Styles
             filled: true,
@@ -51,8 +47,8 @@ const MapboxEx = () => {
             // Interactive props
             pickable: true,
             extruded: true,
-            getElevation: 500,
             autoHighlight: true,
+            getElevation: 500,
 
             strokeWeight: 30,
             stroked: false,
@@ -60,16 +56,14 @@ const MapboxEx = () => {
             wireframe: true,
             onClick,
         }),
-        new HexagonLayer({
-            id: 'hexagon-layer',
-            // data: busStops,
-            data: testData2,
+        new LineLayer({
+            id: 'line-layer',
+            data: busDataPolygons,
             pickable: true,
-            extruded: true,
-            radius: 200,
-            elevationScale: 4,
-
-            getPosition: (d) => d.geometry.coordinates,
+            getWidth: 50,
+            getSourcePosition: (d) => d.from.coordinates,
+            getTargetPosition: (d) => d.to.coordinates,
+            getColor: (d) => [Math.sqrt(d.inbound + d.outbound), 140, 0],
         }),
     ];
 
