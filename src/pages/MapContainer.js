@@ -1,10 +1,11 @@
 import React from 'react';
 import { Row, Col, Card, Container } from 'react-bootstrap';
 import MapboxEx from '../components/MapboxEx';
-import './MapContainer.css';
 import { options } from '../data.js';
 import Select from 'react-select';
 import makeAnimated from 'react-select/animated';
+import './MapContainer.css';
+import DateSelector from '../components/DateSelector.js';
 
 const animatedComponents = makeAnimated();
 
@@ -17,7 +18,9 @@ const MapContainer = () => {
   return (
     <>
       <div className="d-flex h-100 pt-2">
-        <div style={{ width: '200px' }}></div>
+        <div style={{ width: '50px' }}></div>
+        <div className="dateAndHour">Date and hour</div>
+        <div style={{ width: '150px' }}></div>
         <div className="flex-grow-1">
           <div className="destinationSelect">
             <div className="label">Wybierz przystanek końcowy</div>
@@ -37,7 +40,7 @@ const MapContainer = () => {
             </Card.Body>
           </Card>
         </div>
-        <div style={{ width: '200px' }}></div>
+        <div style={{ width: '150px' }}></div>
       </div>
     </>
   );
