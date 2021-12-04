@@ -1,6 +1,7 @@
 import { StaticMap, MapContext, NavigationControl } from 'react-map-gl';
-import DeckGL, { GeoJsonLayer, ArcLayer } from 'deck.gl';
+import DeckGL, { GeoJsonLayer, ArcLayer, HexagonLayer } from 'deck.gl';
 import busStops from '../geodata/bus_stops.geojson';
+import testData from '../geodata/testData.json';
 
 // source: Natural Earth http://www.naturalearthdata.com/ via geojson.xyz
 const AIR_PORTS =
@@ -33,8 +34,9 @@ const MapboxEx = () => {
 
     const layers = [
         new GeoJsonLayer({
-            id: 'airports',
+            id: 'busstops',
             data: busStops,
+            // data: testData,
             // Styles
             filled: true,
             pointRadiusMinPixels: 2,
@@ -43,8 +45,24 @@ const MapboxEx = () => {
             getFillColor: [200, 0, 80, 180],
             // Interactive props
             pickable: true,
+            extruded: true,
+            getElevation: 3000,
             autoHighlight: true,
+
+            stroked: false,
+            opacity: 0.8,
+            wireframe: true,
             onClick,
+        }),
+        new HexagonLayer({
+            id: 'hexagon-layer',
+            // data: busStops,
+            data: testData,
+            pickable: true,
+            extruded: true,
+            radius: 200,
+            elevationScale: 4,
+            getPosition: (d) => d.COORDINATES,
         }),
         // new ArcLayer({
         //     id: 'arcs',
