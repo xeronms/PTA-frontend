@@ -1,0 +1,11 @@
+.destinationSelect {
+  height: 100px;
+}
+
+.label {
+  font-size: x-large;
+  font-weight: 500;
+  padding: 10px 0;
+  min-width: 450px;
+  /* border: 1px solid black; */
+}
