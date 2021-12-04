@@ -1,0 +1,3736 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/474493167",
+        "highway": "bus_stop",
+        "name": "Rybnik Niewiadom Kolonia Beata",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4781511,
+          50.080914
+        ]
+      },
+      "id": "node/474493167"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/474493201",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Orzepowice Szpital",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5229719,
+          50.1123581
+        ]
+      },
+      "id": "node/474493201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/513168771",
+        "bench": "yes",
+        "bin": "yes",
+        "covered": "yes",
+        "highway": "bus_stop",
+        "name": "Rybnik Śródmieście Urszulanki",
+        "passenger_information_display": "yes",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "short_name": "Urszulanki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.544012,
+          50.0901108
+        ]
+      },
+      "id": "node/513168771"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/878869106",
+        "highway": "bus_stop",
+        "name": "Rybnik Niedobczyce Skrzyżowanie",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "network:wikidata": "Q11742143",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5190342,
+          50.0715409
+        ]
+      },
+      "id": "node/878869106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/930800703",
+        "bench": "yes",
+        "bin": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Ligota-Ligocka Kuźnia Kościół",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5989334,
+          50.0889498
+        ]
+      },
+      "id": "node/930800703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/930800706",
+        "bench": "no",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Ligota-Ligocka Kuźnia Kościół",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5988398,
+          50.0888635
+        ]
+      },
+      "id": "node/930800706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1185707911",
+        "highway": "bus_stop",
+        "name": "Rybnik Chwałowice Kupiecka",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5508376,
+          50.0660168
+        ]
+      },
+      "id": "node/1185707911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1286583325",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "name": "Niedobczyce Wrębowa",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4829604,
+          50.0539612
+        ]
+      },
+      "id": "node/1286583325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1286583331",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "name": "Niedobczyce Wrębowa",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4848546,
+          50.0555151
+        ]
+      },
+      "id": "node/1286583331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1421019521",
+        "bench": "no",
+        "covered": "no",
+        "description": "Kierunek kursów: Rybnik",
+        "highway": "bus_stop",
+        "name": "Rybnik Kamień Pojdy",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku, Zarząd Transportu Metropolitalnego",
+        "network:wikidata": "Q11742143",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5982392,
+          50.1462323
+        ]
+      },
+      "id": "node/1421019521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1601512884",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Rybnik Smolna Osiedle",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5304525,
+          50.086567
+        ]
+      },
+      "id": "node/1601512884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1601512891",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Rybnik Smolna Osiedle",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5306327,
+          50.0872373
+        ]
+      },
+      "id": "node/1601512891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1619931188",
+        "bench": "yes",
+        "bin": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Ligota-Ligocka Kuźnia Skrzyżowanie",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "network:wikidata": "Q11742143",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5930159,
+          50.0923473
+        ]
+      },
+      "id": "node/1619931188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1619989380",
+        "bench": "no",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Śródmieście Dworek",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5357589,
+          50.0976375
+        ]
+      },
+      "id": "node/1619989380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1628587025",
+        "bench": "yes",
+        "name": "Boguszowice Osiedle",
+        "network": "ZTZ Rybnik",
+        "operator": "Dolnośląskie Linie Autobusowe",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5999467,
+          50.0481636
+        ]
+      },
+      "id": "node/1628587025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1660886100",
+        "bench": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Ligota-Ligocka Kuźnia Rondo Boguszowickie",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5856766,
+          50.0872875
+        ]
+      },
+      "id": "node/1660886100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1708396668",
+        "highway": "bus_stop",
+        "name": "Rybnik Chwałowice Kupiecka",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5510453,
+          50.0659379
+        ]
+      },
+      "id": "node/1708396668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1747613782",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Boguszowice Pętla",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6086372,
+          50.0468522
+        ]
+      },
+      "id": "node/1747613782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1747613784",
+        "highway": "bus_stop",
+        "name": "Boguszowice Pętla",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6055743,
+          50.0461997
+        ]
+      },
+      "id": "node/1747613784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1747865796",
+        "bench": "yes",
+        "name": "Boguszowice Kopalnia",
+        "network": "ZTZ Rybnik",
+        "operator": "Dolnośląskie Linie Autobusowe",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5889538,
+          50.049155
+        ]
+      },
+      "id": "node/1747865796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1747877172",
+        "name": "Boguszowice Małachowskiego",
+        "network": "ZTZ Rybnik",
+        "operator": "Dolnośląskie Linie Autobusowe",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5896748,
+          50.0559329
+        ]
+      },
+      "id": "node/1747877172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1748377645",
+        "name": "Boguszowice Kopalnia",
+        "network": "ZTZ Rybnik",
+        "operator": "Dolnośląskie Linie Autobusowe",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5889629,
+          50.0491516
+        ]
+      },
+      "id": "node/1748377645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1748377647",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Boguszowice Szkoła",
+        "network": "ZTZ Rybnik",
+        "operator": "Dolnośląskie Linie Autobusowe",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5995682,
+          50.0612712
+        ]
+      },
+      "id": "node/1748377647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1755122992",
+        "name": "Boguszowice Stare",
+        "network": "ZTZ Rybnik",
+        "operator": "Dolnośląskie Linie Autobusowe",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.599963,
+          50.0651561
+        ]
+      },
+      "id": "node/1755122992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1755122995",
+        "name": "Raszowiec",
+        "network": "ZTZ Rybnik",
+        "operator": "Dolnośląskie Linie Autobusowe",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5939657,
+          50.0734088
+        ]
+      },
+      "id": "node/1755122995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1755131769",
+        "name": "Ligota Boguszowicka",
+        "network": "ZTZ Rybnik",
+        "operator": "Dolnośląskie Linie Autobusowe",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5861014,
+          50.0823824
+        ]
+      },
+      "id": "node/1755131769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1755131778",
+        "name": "Ligota Boguszowicka",
+        "network": "ZTZ Rybnik",
+        "operator": "Dolnośląskie Linie Autobusowe",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5859893,
+          50.0824337
+        ]
+      },
+      "id": "node/1755131778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1767895226",
+        "bench": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "name": "Rybnik Ligota-Ligocka Kuźnia Żorska",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5725918,
+          50.0919004
+        ]
+      },
+      "id": "node/1767895226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1767895278",
+        "alt_name": "Rybnik Żorska Wiadukt",
+        "bench": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "name": "Rybnik Ligota­‑Ligocka Kuźnia Wiadukt",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5632208,
+          50.0945682
+        ]
+      },
+      "id": "node/1767895278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1767916500",
+        "bench": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Ligota-Ligocka Kuźnia Kaplica",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5773033,
+          50.0890435
+        ]
+      },
+      "id": "node/1767916500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1767971302",
+        "name": "Rybnik Maroko Nowiny",
+        "network": "ZTZ Rybnik",
+        "operator": "Dolnośląskie Linie Autobusowe",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5202071,
+          50.0972934
+        ]
+      },
+      "id": "node/1767971302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1894708577",
+        "highway": "bus_stop",
+        "name": "Rybnik Zamysłów Plebiscytowa",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5257549,
+          50.0826981
+        ]
+      },
+      "id": "node/1894708577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1894708580",
+        "highway": "bus_stop",
+        "name": "Rybnik Zamysłów Plebiscytowa",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5261488,
+          50.0826884
+        ]
+      },
+      "id": "node/1894708580"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1894708582",
+        "highway": "bus_stop",
+        "name": "Rybnik Zamysłów Wrzosy",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.510634,
+          50.078964
+        ]
+      },
+      "id": "node/1894708582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1894708583",
+        "highway": "bus_stop",
+        "name": "Rybnik Zamysłów Wrzosy",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5120758,
+          50.0800031
+        ]
+      },
+      "id": "node/1894708583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1894813155",
+        "highway": "bus_stop",
+        "name": "Rybnik Zamysłów Niedobczycka",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5188652,
+          50.0833203
+        ]
+      },
+      "id": "node/1894813155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2458463465",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Śródmieście Kampus",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "network:wikidata": "Q11742143",
+        "public_transport": "platform",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5409625,
+          50.0977359
+        ]
+      },
+      "id": "node/2458463465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2458463619",
+        "bench": "no",
+        "bin": "no",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Śródmieście Kampus",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "network:wikidata": "Q11742143",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5398,
+          50.0989778
+        ]
+      },
+      "id": "node/2458463619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2482556924",
+        "highway": "bus_stop",
+        "name": "Rybnik Meksyk Kamyczek",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5456866,
+          50.0872129
+        ]
+      },
+      "id": "node/2482556924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2488590030",
+        "alt_name": "Rybnik Żorska Wiadukt",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "name": "Rybnik Ligota­‑Ligocka Kuźnia Wiadukt",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5638198,
+          50.0945986
+        ]
+      },
+      "id": "node/2488590030"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2582362972",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Śródmieście Sąd",
+        "network": "Zarząd Transportu Zbiorwego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "short_name": "Sąd",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5411332,
+          50.0933368
+        ]
+      },
+      "id": "node/2582362972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2695222924",
+        "highway": "bus_stop",
+        "name": "Niedobczyce Karolinka",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5101506,
+          50.0691891
+        ]
+      },
+      "id": "node/2695222924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2695222926",
+        "highway": "bus_stop",
+        "name": "Niedobczyce Karolinka",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5093075,
+          50.0695173
+        ]
+      },
+      "id": "node/2695222926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993063103",
+        "bench": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Ligota-Ligocka Kuźnia Kaplica",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5794664,
+          50.0912835
+        ]
+      },
+      "id": "node/2993063103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993063105",
+        "bench": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Ligota-Ligocka Kuźnia Rondo Boguszowickie",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5856449,
+          50.0886733
+        ]
+      },
+      "id": "node/2993063105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3195504479",
+        "highway": "bus_stop",
+        "name": "Rybnik Północ Gliwicka Szpital",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "network:wikidata": "Q11742143",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5466349,
+          50.1034478
+        ]
+      },
+      "id": "node/3195504479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3312733230",
+        "highway": "bus_stop",
+        "name": "Rybnik Śródmieście 3 Maja",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku, Międzygminny Związek Komunikacyjny w Jastrzębiu-Zdroju",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "short_name": "3 Maja"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5442933,
+          50.0923363
+        ]
+      },
+      "id": "node/3312733230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3623482240",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Rybnik Maroko Nowiny Budowlanych",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "network:wikidata": "Q11742143",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5240797,
+          50.1014483
+        ]
+      },
+      "id": "node/3623482240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4854127349",
+        "bench": "no",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Rybnicka Kuźnia WORD",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5425831,
+          50.1336817
+        ]
+      },
+      "id": "node/4854127349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4854127366",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Rybnicka Kuźnia WORD",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5419631,
+          50.1335117
+        ]
+      },
+      "id": "node/4854127366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4889201083",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4790835,
+          50.1537537
+        ]
+      },
+      "id": "node/4889201083"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5167669541",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Rybnicka Kuźnia Chłodnie II",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5292508,
+          50.1342002
+        ]
+      },
+      "id": "node/5167669541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5497502344",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "name": "Rybnik Zebrzydowice Przedmieście",
+        "network": "ZTZ Rybnik",
+        "public_transport": "platform",
+        "short_name": "Zebrzydowice Przedmieście"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5010644,
+          50.1071886
+        ]
+      },
+      "id": "node/5497502344"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5602571822",
+        "highway": "bus_stop",
+        "name": "Rybnik Północ Gliwicka Szpital",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "network:wikidata": "Q11742143",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.546784,
+          50.1032066
+        ]
+      },
+      "id": "node/5602571822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696101140",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Orzepowice Szpital",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5231184,
+          50.1132019
+        ]
+      },
+      "id": "node/5696101140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5699417693",
+        "bench": "yes",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Rybnik Meksyk Tkoczów",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5649654,
+          50.0737937
+        ]
+      },
+      "id": "node/5699417693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6254166434",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Śródmieście Sąd",
+        "network": "Zarząd Transportu Zbiorwego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "short_name": "Sąd",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5405781,
+          50.0933388
+        ]
+      },
+      "id": "node/6254166434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6254177472",
+        "bench": "no",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Śródmieście Chrobrego",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5467068,
+          50.0932072
+        ]
+      },
+      "id": "node/6254177472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6254258745",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Śródmieście Dworzec Kolejowy",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku, Międzygminny Związek Komunikacyjny w Jastrzębiu-Zdroju",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5453105,
+          50.0892386
+        ]
+      },
+      "id": "node/6254258745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6254259751",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Śródmieście Kościuszki",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku, Międzygminny Związek Komunikacyjny w Jastrzębiu-Zdroju",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5479364,
+          50.0919709
+        ]
+      },
+      "id": "node/6254259751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6254262425",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Śródmieście Bazylika",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku, Międzygminny Związek Komunikacyjny w Jastrzębiu-Zdroju",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5505497,
+          50.0972955
+        ]
+      },
+      "id": "node/6254262425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6254262426",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Śródmieście Bazylika",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku, Międzygminny Związek Komunikacyjny w Jastrzębiu-Zdroju",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5504546,
+          50.0974577
+        ]
+      },
+      "id": "node/6254262426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6257370602",
+        "highway": "bus_stop",
+        "name": "Rybnik Północ Rondo Gliwickie",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "network:wikidata": "Q11742143",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5440769,
+          50.1020293
+        ]
+      },
+      "id": "node/6257370602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6257370603",
+        "highway": "bus_stop",
+        "name": "Rybnik Północ Rondo Gliwickie",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "network:wikidata": "Q11742143",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5446542,
+          50.1021854
+        ]
+      },
+      "id": "node/6257370603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6257379034",
+        "highway": "bus_stop",
+        "name": "Rybnik Stodoły Stadnina",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "network:wikidata": "Q11742143",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4780354,
+          50.156197
+        ]
+      },
+      "id": "node/6257379034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6257379035",
+        "highway": "bus_stop",
+        "name": "Rybnik Stodoły Stadnina",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "network:wikidata": "Q11742143",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4781751,
+          50.156902
+        ]
+      },
+      "id": "node/6257379035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6257428041",
+        "highway": "bus_stop",
+        "name": "stanowisko 1 (komunikacja międzynarodowa)",
+        "network:wikidata": "Q11742143",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.534086,
+          50.1012972
+        ]
+      },
+      "id": "node/6257428041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6274582986",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "name": "Rybnik Chwałowice Kopalnia",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.549011,
+          50.0717581
+        ]
+      },
+      "id": "node/6274582986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6274582988",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "name": "Rybnik Chwałowice Kopalnia",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5487907,
+          50.0717064
+        ]
+      },
+      "id": "node/6274582988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6274582989",
+        "highway": "bus_stop",
+        "name": "Rybnik Chwałowice Osiedle",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5520043,
+          50.0634125
+        ]
+      },
+      "id": "node/6274582989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6274582990",
+        "highway": "bus_stop",
+        "name": "Rybnik Chwałowice Osiedle",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5522337,
+          50.0628627
+        ]
+      },
+      "id": "node/6274582990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6274596377",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Rybnik Chwałowice Pętla",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5551156,
+          50.0601831
+        ]
+      },
+      "id": "node/6274596377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6280651903",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5315027,
+          50.1408672
+        ]
+      },
+      "id": "node/6280651903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6343628928",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5281253,
+          50.139877
+        ]
+      },
+      "id": "node/6343628928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6388917890",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5283898,
+          50.0946031
+        ]
+      },
+      "id": "node/6388917890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6388917891",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5286268,
+          50.0952872
+        ]
+      },
+      "id": "node/6388917891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6404875711",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5504252,
+          50.1376236
+        ]
+      },
+      "id": "node/6404875711"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6404875712",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5502294,
+          50.1358034
+        ]
+      },
+      "id": "node/6404875712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6644360790",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "name": "Rybnik Północ Strzelecka",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.558513,
+          50.1028763
+        ]
+      },
+      "id": "node/6644360790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6644360791",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Północ Żużlowa",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5530351,
+          50.1065938
+        ]
+      },
+      "id": "node/6644360791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6741894654",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Paruszowiec-Piaski Huta Silesia",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku, Międzygminny Związek Komunikacyjny w Jastrzębiu-Zdroju",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5666548,
+          50.1023472
+        ]
+      },
+      "id": "node/6741894654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6834080886",
+        "highway": "bus_stop",
+        "name": "Rybnik Stodoły Przystań",
+        "passenger_information_display": "yes",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4788363,
+          50.1463553
+        ]
+      },
+      "id": "node/6834080886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6834080887",
+        "highway": "bus_stop",
+        "name": "Rybnik Stodoły Przystań",
+        "passenger_information_display": "yes",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4788858,
+          50.1468199
+        ]
+      },
+      "id": "node/6834080887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7110574626",
+        "highway": "bus_stop",
+        "name": "Rybnik Chwałowice Królewiok",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5642365,
+          50.06806
+        ]
+      },
+      "id": "node/7110574626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7110574627",
+        "highway": "bus_stop",
+        "name": "Rybnik Chwałowice Królewiok",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5630342,
+          50.0678844
+        ]
+      },
+      "id": "node/7110574627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7110951474",
+        "highway": "bus_stop",
+        "name": "Rybnik Chwałowice Kożdoniów",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5666411,
+          50.0569118
+        ]
+      },
+      "id": "node/7110951474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7110951475",
+        "highway": "bus_stop",
+        "name": "Rybnik Chwałowice Malchera",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5533698,
+          50.0634474
+        ]
+      },
+      "id": "node/7110951475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7110951476",
+        "highway": "bus_stop",
+        "name": "Rybnik Chwałowice Kolonia",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5563222,
+          50.0653866
+        ]
+      },
+      "id": "node/7110951476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7110951477",
+        "bench": "yes",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Rybnik Meksyk Tkoczów",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5650718,
+          50.0738209
+        ]
+      },
+      "id": "node/7110951477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7110951478",
+        "highway": "bus_stop",
+        "name": "Rybnik Meksyk Budowlanka",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5536408,
+          50.0853781
+        ]
+      },
+      "id": "node/7110951478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7110951479",
+        "highway": "bus_stop",
+        "name": "Rybnik Meksyk Budowlanka",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5537126,
+          50.0852432
+        ]
+      },
+      "id": "node/7110951479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7110996786",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Śródmieście Dworek",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5359626,
+          50.097036
+        ]
+      },
+      "id": "node/7110996786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7113383010",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Północ Karolinka",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "network:wikidata": "Q11742143",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5588492,
+          50.0992303
+        ]
+      },
+      "id": "node/7113383010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7113383011",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Paruszowiec-Piaski Huta Silesia",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku, Międzygminny Związek Komunikacyjny w Jastrzębiu-Zdroju",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5651086,
+          50.1015837
+        ]
+      },
+      "id": "node/7113383011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7113383012",
+        "highway": "bus_stop",
+        "name": "Rybnik Paruszowiec-Piaski Mikołowska",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku, Międzygminny Związek Komunikacyjny w Jastrzębiu-Zdroju",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5746108,
+          50.1060079
+        ]
+      },
+      "id": "node/7113383012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7113383013",
+        "highway": "bus_stop",
+        "name": "Rybnik Paruszowiec-Piaski Mikołowska",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku, Międzygminny Związek Komunikacyjny w Jastrzębiu-Zdroju",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5752223,
+          50.1061042
+        ]
+      },
+      "id": "node/7113383013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7113383015",
+        "highway": "bus_stop",
+        "name": "Rybnik Kamień Robotnicza",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5938348,
+          50.1274138
+        ]
+      },
+      "id": "node/7113383015"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7113383016",
+        "highway": "bus_stop",
+        "name": "Rybnik Kamień Robotnicza",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5944844,
+          50.128509
+        ]
+      },
+      "id": "node/7113383016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7113383017",
+        "highway": "bus_stop",
+        "name": "Rybnik Kamień Ośrodek Sportowy",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5960606,
+          50.1324332
+        ]
+      },
+      "id": "node/7113383017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7113383018",
+        "highway": "bus_stop",
+        "name": "Rybnik Kamień Ośrodek Sportowy",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.596392,
+          50.1325959
+        ]
+      },
+      "id": "node/7113383018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7113383019",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "covered": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "name": "Rybnik Kamień Szkoła",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "passenger_information_display": "yes",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6033923,
+          50.1397366
+        ]
+      },
+      "id": "node/7113383019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7113383020",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "name": "Rybnik Kamień Szkoła",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "passenger_information_display": "yes",
+        "public_transport": "platform",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6031854,
+          50.1397638
+        ]
+      },
+      "id": "node/7113383020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7113383021",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "name": "Rybnik Kamień Szewczyka",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "passenger_information_display": "yes",
+        "public_transport": "platform",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6120896,
+          50.1441028
+        ]
+      },
+      "id": "node/7113383021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7113383022",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "name": "Rybnik Kamień Szewczyka",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "passenger_information_display": "yes",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6118088,
+          50.1441054
+        ]
+      },
+      "id": "node/7113383022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7113383023",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "name": "Rybnik Kamień Rzędówka",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6170171,
+          50.1419891
+        ]
+      },
+      "id": "node/7113383023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7113383024",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "name": "Rybnik Kamień Rzędówka",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6168545,
+          50.1419479
+        ]
+      },
+      "id": "node/7113383024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7113383028",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "name": "Rybnik Kamień Skrzyżowanie",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6004771,
+          50.140844
+        ]
+      },
+      "id": "node/7113383028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7113383029",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "name": "Rybnik Kamień Skrzyżowanie",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6006394,
+          50.1408818
+        ]
+      },
+      "id": "node/7113383029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7118328753",
+        "highway": "bus_stop",
+        "name": "Rybnik Niedobczyce Skrzyżowanie",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "network:wikidata": "Q11742143",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5195565,
+          50.0718333
+        ]
+      },
+      "id": "node/7118328753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7122978655",
+        "highway": "bus_stop",
+        "name": "Rybnik Zamysłów Gruntowa",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4977742,
+          50.0844733
+        ]
+      },
+      "id": "node/7122978655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7122978656",
+        "highway": "bus_stop",
+        "name": "Rybnik Zamysłów Gruntowa",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4993462,
+          50.0858546
+        ]
+      },
+      "id": "node/7122978656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7122978657",
+        "highway": "bus_stop",
+        "name": "Rybnik Niewiadom Kolonia Beata",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.482344,
+          50.0806197
+        ]
+      },
+      "id": "node/7122978657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7122978658",
+        "highway": "bus_stop",
+        "name": "Rybnik Niewiadom Kolonia Helena",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4723708,
+          50.0804208
+        ]
+      },
+      "id": "node/7122978658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7122978659",
+        "highway": "bus_stop",
+        "name": "Rybnik Niewiadom Buzowice",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4511313,
+          50.0823805
+        ]
+      },
+      "id": "node/7122978659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7122978660",
+        "highway": "bus_stop",
+        "name": "Rybnik Niewiadom Buzowice",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4513638,
+          50.082223
+        ]
+      },
+      "id": "node/7122978660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7807324260",
+        "bench": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Gotartowice Lotnisko",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6371199,
+          50.0714232
+        ]
+      },
+      "id": "node/7807324260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7807324261",
+        "bench": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Gotartowice Lotnisko",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6388127,
+          50.0709026
+        ]
+      },
+      "id": "node/7807324261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7852117127",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5518484,
+          50.0923565
+        ]
+      },
+      "id": "node/7852117127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7852499311",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Rybnik Północ Rudzka Cmentarz",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5374344,
+          50.1040969
+        ]
+      },
+      "id": "node/7852499311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7852499312",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Rybnik Północ Rudzka Cmentarz",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5371418,
+          50.1042033
+        ]
+      },
+      "id": "node/7852499312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7856125569",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5246964,
+          50.0872505
+        ]
+      },
+      "id": "node/7856125569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7856125570",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5239416,
+          50.0878854
+        ]
+      },
+      "id": "node/7856125570"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8150705006",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "name": "Rybnik Ochojec Młynek",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5430675,
+          50.1587246
+        ]
+      },
+      "id": "node/8150705006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8150705007",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "name": "Rybnik Ochojec Młynek",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5427287,
+          50.1590957
+        ]
+      },
+      "id": "node/8150705007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8150727399",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "name": "Rybnik Golejów Skrzyżowanie",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5489778,
+          50.1431487
+        ]
+      },
+      "id": "node/8150727399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8150727400",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "name": "Rybnik Golejów Skrzyżowanie",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5484801,
+          50.1438356
+        ]
+      },
+      "id": "node/8150727400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8150753124",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "name": "Rybnik Golejów Siedliska",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5467706,
+          50.1483646
+        ]
+      },
+      "id": "node/8150753124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8150753125",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "name": "Rybnik Golejów Siedliska",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5471239,
+          50.1480197
+        ]
+      },
+      "id": "node/8150753125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8240695672",
+        "highway": "bus_stop",
+        "name": "Rybnik Północ Kąpielisko Ruda",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "network:wikidata": "Q11742143",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5462149,
+          50.1119976
+        ]
+      },
+      "id": "node/8240695672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8769192204",
+        "bench": "yes",
+        "bin": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Paruszowiec-Piaski Wolna",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "network:wikidata": "Q11742143",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5875847,
+          50.0952328
+        ]
+      },
+      "id": "node/8769192204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8769192205",
+        "bench": "no",
+        "bin": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Paruszowiec-Piaski Wolna",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "network:wikidata": "Q11742143",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5874953,
+          50.0951737
+        ]
+      },
+      "id": "node/8769192205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8770165700",
+        "bench": "no",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Ligota-Ligocka Kuźnia Skrzyżowanie",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "network:wikidata": "Q11742143",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5928797,
+          50.0923002
+        ]
+      },
+      "id": "node/8770165700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8770165702",
+        "bench": "no",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Rybnik Ligota-Ligocka Kuźnia Wolna",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "network:wikidata": "Q11742143",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6062399,
+          50.0856806
+        ]
+      },
+      "id": "node/8770165702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8770165703",
+        "bench": "no",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Ligota-Ligocka Kuźnia Wolna",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "network:wikidata": "Q11742143",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6075138,
+          50.0853989
+        ]
+      },
+      "id": "node/8770165703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8770165704",
+        "bench": "no",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Rybnik Gotartowice Sygnały",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6157499,
+          50.0842713
+        ]
+      },
+      "id": "node/8770165704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8770165705",
+        "bench": "no",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Gotartowice Sygnały",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.615605,
+          50.0841943
+        ]
+      },
+      "id": "node/8770165705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8770165706",
+        "bench": "no",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Gotartowice",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "network:wikidata": "Q11742143",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.612496,
+          50.080283
+        ]
+      },
+      "id": "node/8770165706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8770165707",
+        "bench": "no",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Gotartowice",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "network:wikidata": "Q11742143",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6126484,
+          50.0802902
+        ]
+      },
+      "id": "node/8770165707"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8783737405",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Gotartowice",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6110017,
+          50.0800813
+        ]
+      },
+      "id": "node/8783737405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8783737406",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Ligota-Ligocka Kuźnia",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5987652,
+          50.0837611
+        ]
+      },
+      "id": "node/8783737406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8783737407",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Ligota-Ligocka Kuźnia",
+        "operator": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.600735,
+          50.0829861
+        ]
+      },
+      "id": "node/8783737407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8783737409",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "name": "Rybnik Ligota-Ligocka Kuźnia Żorska",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5699458,
+          50.093238
+        ]
+      },
+      "id": "node/8783737409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8783737410",
+        "bench": "no",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Paruszowiec-Piaski Huta Silesia",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5668713,
+          50.101489
+        ]
+      },
+      "id": "node/8783737410"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8783737411",
+        "bench": "no",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Paruszowiec-Piaski Przemysłowa",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5753956,
+          50.0983576
+        ]
+      },
+      "id": "node/8783737411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8783737412",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Paruszowiec-Piaski Przemysłowa",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5756585,
+          50.0981953
+        ]
+      },
+      "id": "node/8783737412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8783737413",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Paruszowiec-Piaski Błonia",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5816854,
+          50.1013623
+        ]
+      },
+      "id": "node/8783737413"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8783737414",
+        "bench": "no",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Paruszowiec-Piaski Błonia",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5816628,
+          50.1010307
+        ]
+      },
+      "id": "node/8783737414"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8783737415",
+        "bench": "no",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Paruszowiec-Piaski Stawowa",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5781285,
+          50.1031855
+        ]
+      },
+      "id": "node/8783737415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8783737416",
+        "bench": "no",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "name": "Rybnik Paruszowiec-Piaski Stawowa",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5773999,
+          50.1033852
+        ]
+      },
+      "id": "node/8783737416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8783752318",
+        "bus": "yes",
+        "departures_board": "no",
+        "highway": "bus_stop",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5788967,
+          50.0894356
+        ]
+      },
+      "id": "node/8783752318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8785472509",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Gotartowice",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6134826,
+          50.0791733
+        ]
+      },
+      "id": "node/8785472509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8787248586",
+        "bench": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Północ Wyzwolenia",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "network:wikidata": "Q11742143",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "short_name": "Północ Wyzwolenia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5533405,
+          50.1010419
+        ]
+      },
+      "id": "node/8787248586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8787248587",
+        "bench": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Północ Wyzwolenia",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "network:wikidata": "Q11742143",
+        "public_transport": "platform",
+        "shelter": "no",
+        "short_name": "Północ Wyzwolenia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5534252,
+          50.1008898
+        ]
+      },
+      "id": "node/8787248587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8792691929",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Północ Żużlowa",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5541103,
+          50.1063536
+        ]
+      },
+      "id": "node/8792691929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8796405274",
+        "bench": "no",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "name": "Rybnik Wielopole Lipowa",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5443549,
+          50.1179827
+        ]
+      },
+      "id": "node/8796405274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8796464844",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Rybnicka Kuźnia Osiedle",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5230636,
+          50.1270256
+        ]
+      },
+      "id": "node/8796464844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8796464845",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Rybnicka Kuźnia Osiedle",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5230667,
+          50.1267559
+        ]
+      },
+      "id": "node/8796464845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8796464846",
+        "bench": "no",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Rybnicka Kuźnia Maksymiliana",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5243138,
+          50.1244672
+        ]
+      },
+      "id": "node/8796464846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8796464847",
+        "bench": "no",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Rybnicka Kuźnia Maksymiliana",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5259669,
+          50.1240857
+        ]
+      },
+      "id": "node/8796464847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8796464849",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "name": "Rybnik Rybnicka Kuźnia Szkoła",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5304198,
+          50.1219551
+        ]
+      },
+      "id": "node/8796464849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8796464850",
+        "bench": "no",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "name": "Rybnik Rybnicka Kuźnia Szkoła",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5305308,
+          50.122052
+        ]
+      },
+      "id": "node/8796464850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8796569317",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Orzepowice Rondo",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5221149,
+          50.1192705
+        ]
+      },
+      "id": "node/8796569317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8796569318",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Orzepowice Rondo",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5212938,
+          50.119385
+        ]
+      },
+      "id": "node/8796569318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8796569319",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Chwałęcice Przystań",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5066088,
+          50.1247594
+        ]
+      },
+      "id": "node/8796569319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8796569320",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Chwałęcice Przystań",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5076095,
+          50.1241768
+        ]
+      },
+      "id": "node/8796569320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8796569323",
+        "bench": "no",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Rybnicka Kuźnia Boisko",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.535422,
+          50.1318804
+        ]
+      },
+      "id": "node/8796569323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8796569324",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Rybnicka Kuźnia Boisko",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5365471,
+          50.1322142
+        ]
+      },
+      "id": "node/8796569324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8796569325",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Rybnicka Kuźnia Chłodnie I",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5267827,
+          50.1325849
+        ]
+      },
+      "id": "node/8796569325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8796569326",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Rybnicka Kuźnia Chłodnie I",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5262578,
+          50.1328684
+        ]
+      },
+      "id": "node/8796569326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8796569327",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Rybnicka Kuźnia Elektrownia",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5215669,
+          50.1308662
+        ]
+      },
+      "id": "node/8796569327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8796569328",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Rybnicka Kuźnia Elektrownia",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.521407,
+          50.1310559
+        ]
+      },
+      "id": "node/8796569328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8796614659",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Maroko Nowiny Żołędziowa",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5294146,
+          50.1025372
+        ]
+      },
+      "id": "node/8796614659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8798341440",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Smolna Franciszkanie",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5358073,
+          50.0941813
+        ]
+      },
+      "id": "node/8798341440"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8798341441",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Rybnik Smolna Franciszkanie",
+        "network": "Zarząd Transportu Zbiorowego w Rybniku",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5354797,
+          50.0934863
+        ]
+      },
+      "id": "node/8798341441"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8856315573",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "name": "Rybnik Śródmieście Reymonta ZUS",
+        "network": "ZTZ Rybnik",
+        "operator": "ZTZ Rybnik",
+        "public_transport": "platform",
+        "start_date": "2020-11-27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5408692,
+          50.0891249
+        ]
+      },
+      "id": "node/8856315573"
+    }
+  ]
+}
