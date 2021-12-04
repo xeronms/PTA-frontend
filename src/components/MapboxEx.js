@@ -1,7 +1,10 @@
 import { StaticMap, MapContext, NavigationControl } from 'react-map-gl';
-import DeckGL, { GeoJsonLayer, ArcLayer, HexagonLayer } from 'deck.gl';
+import DeckGL, { GeoJsonLayer, LineLayer } from 'deck.gl';
 import busStops from '../geodata/bus_stops.geojson';
 import testData from '../geodata/testData.json';
+import testData2 from '../geodata/testData2.json';
+import testData3 from '../geodata/testData3.json';
+import busDataPolygons from '../geodata/testBusStopsDataPolygons.json';
 
 // source: Natural Earth http://www.naturalearthdata.com/ via geojson.xyz
 const AIR_PORTS =
@@ -26,17 +29,15 @@ const MapboxEx = () => {
   const onClick = (info) => {
     if (info.object) {
       // eslint-disable-next-line
-      alert(
-        `${info.object.properties.name} (${info.object.properties.abbrev})`
-      );
+      alert(`${info.object.properties.name}`);
     }
   };
 
   const layers = [
     new GeoJsonLayer({
       id: 'busstops',
-      data: busStops,
-      // data: testData,
+      // data: busStops,
+      data: busDataPolygons,
       // Styles
       filled: true,
       pointRadiusMinPixels: 2,
@@ -46,8 +47,8 @@ const MapboxEx = () => {
       // Interactive props
       pickable: true,
       extruded: true,
-      getElevation: 3000,
       autoHighlight: true,
+      getElevation: 500,
 
       strokeWeight: 30,
       stroked: false,
@@ -55,29 +56,15 @@ const MapboxEx = () => {
       wireframe: true,
       onClick,
     }),
-    new HexagonLayer({
-      id: 'hexagon-layer',
-      data: busStops,
-      // data: testData,
+    new LineLayer({
+      id: 'line-layer',
+      data: busDataPolygons,
       pickable: true,
-      extruded: true,
-      radius: 200,
-      elevationScale: 4,
-
-      getPosition: (d) => d.geometry.coordinates,
+      getWidth: 50,
+      getSourcePosition: (d) => d.from.coordinates,
+      getTargetPosition: (d) => d.to.coordinates,
+      getColor: (d) => [Math.sqrt(d.inbound + d.outbound), 140, 0],
     }),
-    // new ArcLayer({
-    //     id: 'arcs',
-    //     data: AIR_PORTS,
-    //     // dataTransform: (d) =>
-    //     //     d.features.filter((f) => f.properties.scalerank < 4),
-    //     // // Styles
-    //     // getSourcePosition: (f) => [-0.4531566, 51.4709959], // London
-    //     // getTargetPosition: (f) => f.geometry.coordinates,
-    //     getSourceColor: [0, 128, 200],
-    //     getTargetColor: [200, 0, 80],
-    //     getWidth: 1,
-    // }),
   ];
 
   return (
@@ -85,7 +72,8 @@ const MapboxEx = () => {
       initialViewState={INITIAL_VIEW_STATE}
       controller={true}
       layers={layers}
-      ContextProvider={MapContext.Provider}>
+      ContextProvider={MapContext.Provider}
+      getTooltip={({ object }) => object && `${object.properties.name}`}>
       <StaticMap
         mapStyle={MAP_STYLE}
         mapboxApiAccessToken={
