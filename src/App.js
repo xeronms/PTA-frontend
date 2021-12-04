@@ -8,7 +8,6 @@ import {
 import NavbarComponent from './components/NavbarComponent';
 import { Container } from 'react-bootstrap';
 import MapContainer from './pages/MapContainer';
-import Home from './pages/Home';
 import * as dfd from 'danfojs/dist/index';
 import Contact from './pages/Contact';
 
@@ -34,7 +33,6 @@ function App() {
                 >
                     <NavbarComponent></NavbarComponent>
                     <Routes>
-                        <Route path='/' element={<Home />} />
                         <Route path='/map' element={<MapContainer />} />
                         <Route path='/contact' element={<Contact />} />
                     </Routes>
