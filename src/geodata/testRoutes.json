@@ -2,6 +2,9 @@
     {
         "inbound": 72633,
         "outbound": 74735,
+        "properties": {
+            "count": 34
+        },
         "from": {
             "name": "Przystanek 1",
             "coordinates": [
