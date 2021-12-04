@@ -82,7 +82,13 @@ const Backend = () => {
     ) {
         // 1. tmp = SELECT * FROM tmp WHERE data > dateFrom AND data < dateTo;
         // 2. tmp = SELECT * FROM tmp WHERE Godzina > hourFrom AND Godzina < hourTo;
+        // TODO #1: kolumna Godzina -> usunąć : i zmienić na inta (musi być skalar by porównywać)
+        // TODO #2: kolumna data -> zmienić na czasu Unixowy, wtedy otrzebujemy skalara 
         ridesDf.print();
+        ridesDf.print();
+
+        ridesDf["data"] = new dfd.Series(ridesDf["data"])
+
         // let ridesDfTimeFiltered = ridesDf.iloc({
         //     rows: ridesDf["data"].ge(dateFrom)
         //         .and(ridesDf["data"].le(dateTo))
@@ -90,7 +96,7 @@ const Backend = () => {
         //         .and(ridesDf["Godzina"].le(hourTo))
         // });
         let ridesDfTimeFiltered = ridesDf.iloc({
-            rows: ridesDf["data"].gt("2021-09-08")
+            rows: ridesDf["Godzina"].gt(hourFrom)
         });
         ridesDfTimeFiltered.print();
 
@@ -124,7 +130,7 @@ const Backend = () => {
     ) {
         // 1. tmp = SELECT * FROM tmp WHERE data > dateFrom AND data < dateTo;
         // 2. tmp = SELECT * FROM tmp WHERE Godzina > hourFrom AND Godzina < hourTo;
-        ridesDf.print();
+
         let ridesDfTimeFiltered = ridesDf.iloc({
             rows: ridesDf["data"].ge(dateFrom)
                 .and(ridesDf["data"].le(dateTo))
