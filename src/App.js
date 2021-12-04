@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavbarComponent from './components/NavbarComponent';
 import { Container } from 'react-bootstrap';
 import MapContainer from './pages/MapContainer';
-import Home from './pages/MapContainer';
+import Home from './pages/Home';
 
 function App() {
     return (
