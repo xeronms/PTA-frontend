@@ -11,11 +11,16 @@ const RightMenu = () => {
   const [to, setTo] = React.useState([]);
 
   const handleFrom = (selectedOption) => {
-    setFrom((state) => [...state, selectedOption]);
+    setFrom(selectedOption.map((x) => x.value));
   };
 
   const handleTo = (selectedOption) => {
-    setTo((state) => [...state, selectedOption]);
+    setTo(selectedOption.map((x) => x.value));
+  };
+
+  const handleSubmit = () => {
+    console.log(from);
+    // from.forEach((array) => array.forEach((item) => console.log(item.value)));
   };
 
   return (
@@ -30,7 +35,6 @@ const RightMenu = () => {
             isMulti
             options={options}
             onChange={handleFrom}
-            options={options}
             maxMenuHeight={150}
           />
         </div>
@@ -44,10 +48,10 @@ const RightMenu = () => {
             isMulti
             options={options}
             onChange={handleTo}
-            options={options}
             maxMenuHeight={150}
           />
         </div>
+        <button onClick={handleSubmit}>Submit</button>
       </div>
     </div>
   );
