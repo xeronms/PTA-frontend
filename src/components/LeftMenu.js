@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './LeftMenu.css';
 
 const LeftMenu = () => {
-  return <div className="leftMenuContainer">Menu content</div>;
+  // const [visible, setVisible] = useState(true);
+  // const handleChange = () => {
+  //   setVisible((visible) => !visible);
+  // };
+
+  return <div className={'leftMenu-visible'}></div>;
 };
 
 export default LeftMenu;

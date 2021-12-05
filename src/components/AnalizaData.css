@@ -1,0 +1,10 @@
+.dataContainer {
+  position: fixed;
+  top: 130px;
+  right: 0;
+  left: 0;
+  height: 80px;
+  border: 1px solid green;
+
+  display: flex;
+}

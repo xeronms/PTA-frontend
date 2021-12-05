@@ -1,0 +1,32 @@
+.navContainer {
+  position: fixed;
+  top: 50px;
+  right: 0;
+  left: 0;
+  height: 80px;
+  border: 1px solid green;
+
+  display: flex;
+}
+
+.selectBox {
+  padding: 10px 5px 0 5px;
+  margin: 0 10px;
+  height: 100px;
+  flex: 1;
+}
+
+.selectBox2 {
+  padding: 10px 5px 0 5px;
+  height: 100px;
+  margin: 0 10px;
+  flex: 2;
+}
+
+select {
+  width: 100%;
+}
+
+label {
+  font-size: small;
+}
