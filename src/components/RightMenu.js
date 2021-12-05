@@ -4,16 +4,20 @@ import Select from 'react-select';
 import makeAnimated from 'react-select/animated';
 import { options } from '../helpers/data.js';
 import { DataContext } from '../contexts/DataContext';
+import { MapContext1 } from '../contexts/MapContext1';
 
 const animatedComponents = makeAnimated();
 
 const RightMenu = () => {
+    const { map, setMap } = useContext(MapContext1);
+
     const { data, setData } = useContext(DataContext);
-    const [from, setFrom] = React.useState([]);
+
+    // const [from, setFrom] = React.useState([]);
     const [to, setTo] = React.useState([]);
 
     const handleFrom = (selectedOption) => {
-        setFrom(selectedOption.map((x) => x.value));
+        setData({ from: selectedOption.map((x) => x.value) });
     };
 
     const handleTo = (selectedOption) => {
@@ -21,7 +25,8 @@ const RightMenu = () => {
     };
 
     const handleSubmit = () => {
-        console.log(data);
+        console.log('data', data);
+        console.log('map', map);
     };
 
     return (
@@ -32,7 +37,7 @@ const RightMenu = () => {
                     <Select
                         closeMenuOnSelect={false}
                         components={animatedComponents}
-                        defaultValue={from}
+                        defaultValue={data.from}
                         isMulti
                         options={options}
                         onChange={handleFrom}
@@ -45,7 +50,7 @@ const RightMenu = () => {
                     <Select
                         closeMenuOnSelect={false}
                         components={animatedComponents}
-                        defaultValue={from}
+                        defaultValue={data.from}
                         isMulti
                         options={options}
                         onChange={handleTo}

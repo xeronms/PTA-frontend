@@ -1,8 +1,9 @@
-import { useState } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import { StaticMap, MapContext, NavigationControl } from 'react-map-gl';
 import DeckGL, { GeoJsonLayer, LineLayer } from 'deck.gl';
 import busDataPolygons from '../geodata/testBusStopsDataPolygons.json';
 import testRoutes from '../geodata/testRoutes.json';
+import { MapContext1 } from '../contexts/MapContext1';
 
 const INITIAL_VIEW_STATE = {
     latitude: 50.0928,
@@ -20,6 +21,39 @@ const NAV_CONTROL_STYLE = {
 };
 
 const MapboxEx = () => {
+    const { map, setMap } = useContext(MapContext1);
+    const [mapData, setMapData] = useState();
+
+    useEffect(() => {
+        // onClickHandler();
+        renderStations();
+        console.log('map: ', map);
+    }, [map]);
+
+    const renderStations = () => {
+        if (!map) return;
+
+        let busStationsData = [];
+
+        const selectedStationsIds = Object.keys(map).map((item) =>
+            parseInt(item)
+        );
+
+        busDataPolygons.features.forEach((stationData) => {
+            const currentStationId = parseInt(stationData.id);
+            if (selectedStationsIds.includes(currentStationId)) {
+                stationData.properties['count'] = map[`${stationData.id}.0`];
+                busStationsData.push(stationData);
+            }
+        });
+
+        const geoJsonToRender = {
+            type: 'FeatureCollection',
+            features: busStationsData,
+        };
+        setMapData(geoJsonToRender);
+    };
+
     const onClick = (info) => {
         if (info.object) {
             // eslint-disable-next-line
@@ -30,8 +64,7 @@ const MapboxEx = () => {
     const layers = [
         new GeoJsonLayer({
             id: 'busstops',
-            // data: busStops,
-            data: busDataPolygons,
+            data: mapData,
             // Styles
             filled: true,
             pointRadiusMinPixels: 2,
@@ -42,7 +75,7 @@ const MapboxEx = () => {
             pickable: true,
             extruded: true,
             autoHighlight: true,
-            getElevation: 500,
+            getElevation: (info) => info.properties.count * 30,
 
             strokeWeight: 30,
             stroked: false,
@@ -51,15 +84,15 @@ const MapboxEx = () => {
             // onHover: (info) => setHoverInfo(info),
             onClick,
         }),
-        new LineLayer({
-            id: 'line-layer',
-            data: testRoutes,
-            pickable: true,
-            getWidth: 20,
-            getSourcePosition: (d) => d.from.coordinates,
-            getTargetPosition: (d) => d.to.coordinates,
-            getColor: (d) => [Math.sqrt(d.inbound + d.outbound), 140, 0],
-        }),
+        // new LineLayer({
+        //     id: 'line-layer',
+        //     data: testRoutes,
+        //     pickable: true,
+        //     getWidth: 20,
+        //     getSourcePosition: (d) => d.from.coordinates,
+        //     getTargetPosition: (d) => d.to.coordinates,
+        //     getColor: (d) => [Math.sqrt(d.inbound + d.outbound), 140, 0],
+        // }),
     ];
 
     return (
