@@ -3,6 +3,7 @@ import './AnalizaNav.css';
 import { months } from '../helpers/months.js';
 import { days } from '../helpers/days.js';
 import { years } from '../helpers/years.js';
+import { options } from '../helpers/data.js';
 
 const AnalizaNav = () => {
   return (
@@ -33,18 +34,22 @@ const AnalizaNav = () => {
       </div>
       <div className="selectBox2">
         <label>Przystanek początkowy</label>
-        <select value={'asd'}>
-          <option value="A">Apple</option>
-          <option value="B">Banana</option>
-          <option value="C">Cranberry</option>
+        <select>
+          {options.map((option) =>
+            option.options.map((opt) => (
+              <option value={opt.label}>{opt.label}</option>
+            ))
+          )}
         </select>
       </div>
       <div className="selectBox2">
         <label>Przystanek końcowy</label>
-        <select value={'asd'}>
-          <option value="A">Apple</option>
-          <option value="B">Banana</option>
-          <option value="C">Cranberry</option>
+        <select>
+          {options.map((option) =>
+            option.options.map((opt) => (
+              <option value={opt.label}>{opt.label}</option>
+            ))
+          )}
         </select>
       </div>
     </div>
