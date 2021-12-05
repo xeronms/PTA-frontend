@@ -9,20 +9,22 @@ import NavbarComponent from './components/NavbarComponent';
 import { Container } from 'react-bootstrap';
 import MapContainer from './pages/MapContainer';
 import Contact from './pages/Contact';
-import Analiza from './components/Analiza';
+import Backend from './helpers/Backend';
 
 function App() {
+
   return (
     <HashRouter>
-      <div className="overflow-hidden">
+      <div className='overflow-hidden'>
         <Container
-          className="px-0"
-          style={{ height: '95vh', minWidth: '100%', width: '100%' }}>
+          className='px-0'
+          style={{ height: '95vh', minWidth: '100%', width: '100%' }}
+        >
           <NavbarComponent></NavbarComponent>
           <Routes>
-            <Route path="/" element={<MapContainer />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/analiza" element={<Analiza />} />
+            <Route path='/' element={<MapContainer />} />
+            <Route path='/contact' element={<Contact />} />
+            <Route path='/backend' element={<Backend />} />
           </Routes>
         </Container>
       </div>
