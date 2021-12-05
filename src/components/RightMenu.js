@@ -35,7 +35,7 @@ const RightMenu = () => {
             isMulti
             options={options}
             onChange={handleFrom}
-            maxMenuHeight={150}
+            maxMenuHeight={280}
           />
         </div>
         <div className="selectSpacer"></div>
@@ -48,10 +48,19 @@ const RightMenu = () => {
             isMulti
             options={options}
             onChange={handleTo}
-            maxMenuHeight={150}
+            maxMenuHeight={280}
           />
         </div>
-        <button onClick={handleSubmit}>Submit</button>
+        <button
+          onClick={handleSubmit}
+          style={{
+            borderRadius: '5px',
+            position: 'fixed',
+            right: '10px',
+            marginTop: '10px',
+          }}>
+          Submit
+        </button>
       </div>
     </div>
   );

@@ -9,3 +9,9 @@
   width: 400px;
   margin: 0 15px 0 10px;
 }
+
+.chartsContainer1 {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 20px;
+}
