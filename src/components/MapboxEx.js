@@ -20,8 +20,6 @@ const NAV_CONTROL_STYLE = {
 };
 
 const MapboxEx = () => {
-
-    
     const onClick = (info) => {
         if (info.object) {
             // eslint-disable-next-line
@@ -75,7 +73,7 @@ const MapboxEx = () => {
             <StaticMap
                 mapStyle={MAP_STYLE}
                 mapboxApiAccessToken={
-                    'pk.eyJ1IjoibW5leXVnbiIsImEiOiJja3dyd3cyM3gxMHR2MnVsY2VoOGFjajlmIn0.a1LvZT2UpfZ0mysl3dkbkg'
+                    'pk.eyJ1IjoibW5leXVnbiIsImEiOiJja3dwNmZqMzgwOXEzMm9wMzNtcXg4b2hkIn0.UvTBr-hLirOkwGXLbPwqgQ'
                 }
             />
             <NavigationControl style={NAV_CONTROL_STYLE} />
