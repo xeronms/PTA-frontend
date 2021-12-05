@@ -57,7 +57,6 @@ const RightMenu = () => {
             maxMenuHeight={150}
           />
         </div>
-        <button onClick={handleSubmit}>Click</button>
       </div>
     </div>
   );
