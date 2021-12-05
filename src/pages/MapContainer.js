@@ -5,6 +5,7 @@ import makeAnimated from 'react-select/animated';
 import './MapContainer.css';
 import LeftMenu from '../components/LeftMenu';
 import Cards from '../components/cards/Cards';
+import RightMenu from '../components/RightMenu';
 
 const animatedComponents = makeAnimated();
 
@@ -22,6 +23,7 @@ const MapContainer = () => {
         </Card.Body>
       </Card>
       <LeftMenu />
+      <RightMenu />
       <Cards />
     </>
   );

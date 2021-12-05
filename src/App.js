@@ -4,6 +4,7 @@ import NavbarComponent from './components/NavbarComponent';
 import { Container } from 'react-bootstrap';
 import MapContainer from './pages/MapContainer';
 import * as dfd from 'danfojs/dist/index';
+import Analiza from './components/Analiza';
 
 function App() {
   function load_csv() {
@@ -28,6 +29,7 @@ function App() {
           <NavbarComponent></NavbarComponent>
           <Routes>
             <Route path="/" element={<MapContainer />} />
+            <Route path="/analiza" element={<Analiza />} />
           </Routes>
         </Container>
       </div>

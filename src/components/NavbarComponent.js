@@ -14,10 +14,10 @@ const NavbarComponent = () => {
           </Navbar.Brand>
           <Nav className="mx-auto" style={{ fontSize: '1.4rem' }}>
             <Nav.Item className="px-1">
-              <Nav.Link href="/map">Ruch</Nav.Link>
+              <Nav.Link href="/">Ruch</Nav.Link>
             </Nav.Item>
             <Nav.Item className="px-1">
-              <Nav.Link href="/map">Analiza</Nav.Link>
+              <Nav.Link href="/analiza">Analiza</Nav.Link>
             </Nav.Item>
           </Nav>
           <Nav className="ml-auto">

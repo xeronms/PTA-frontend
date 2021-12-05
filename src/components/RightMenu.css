@@ -1,0 +1,36 @@
+.rightMenu-visible {
+  position: fixed;
+  right: 0;
+  top: 50px;
+  bottom: 2px;
+  flex-wrap: wrap;
+  width: 290px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgb(255, 255, 255) 80%
+  );
+}
+
+.selectboxContainer {
+  position: fixed;
+  top: 50px;
+  right: 0;
+  width: 300px;
+  bottom: 20%;
+  max-height: 500px;
+}
+
+.selectbox {
+  min-width: 250px;
+  max-height: 100px;
+}
+
+.label {
+  min-height: 30px;
+  margin-top: 20px;
+}
+
+.selectSpacer {
+  height: 75px;
+}
