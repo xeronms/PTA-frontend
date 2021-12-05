@@ -15,9 +15,9 @@ const AIR_PORTS =
 const INITIAL_VIEW_STATE = {
     latitude: 50.0928,
     longitude: 18.5444,
-    zoom: 13.08,
+    zoom: 12.08,
     bearing: 0,
-    pitch: 30,
+    pitch: 15,
 };
 
 const MAP_STYLE = 'mapbox://styles/mapbox/light-v10';
@@ -28,8 +28,6 @@ const NAV_CONTROL_STYLE = {
 };
 
 const MapboxEx = () => {
-    const [hoverInfo, setHoverInfo] = useState('test');
-
     const onClick = (info) => {
         if (info.object) {
             // eslint-disable-next-line

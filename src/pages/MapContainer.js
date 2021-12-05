@@ -9,22 +9,22 @@ import Cards from '../components/cards/Cards';
 const animatedComponents = makeAnimated();
 
 const MapContainer = () => {
-  const [from, setFrom] = React.useState([]);
+    const [from, setFrom] = React.useState([]);
 
-  const handleChange = (selectedOption) => {
-    setFrom((state) => [...state, selectedOption]);
-  };
-  return (
-    <>
-      <Card className="mapContainer">
-        <Card.Body>
-          <MapboxEx></MapboxEx>
-        </Card.Body>
-      </Card>
-      <LeftMenu />
-      <Cards />
-    </>
-  );
+    const handleChange = (selectedOption) => {
+        setFrom((state) => [...state, selectedOption]);
+    };
+    return (
+        <>
+            <Card className='mapContainer'>
+                <Card.Body>
+                    <MapboxEx></MapboxEx>
+                </Card.Body>
+            </Card>
+            <LeftMenu />
+            <Cards />
+        </>
+    );
 };
 
 export default MapContainer;

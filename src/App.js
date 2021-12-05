@@ -33,7 +33,7 @@ function App() {
                 >
                     <NavbarComponent></NavbarComponent>
                     <Routes>
-                        <Route path='/map' element={<MapContainer />} />
+                        <Route path='/' element={<MapContainer />} />
                         <Route path='/contact' element={<Contact />} />
                     </Routes>
                 </Container>
