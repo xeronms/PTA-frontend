@@ -17,7 +17,7 @@ const NavbarComponent = () => {
               <Nav.Link href="/">Ruch</Nav.Link>
             </Nav.Item>
             <Nav.Item className="px-1">
-              <Nav.Link href="/analiza">Analiza</Nav.Link>
+              <Nav.Link href="/#/analiza">Analiza</Nav.Link>
             </Nav.Item>
           </Nav>
           <Nav className="ml-auto">

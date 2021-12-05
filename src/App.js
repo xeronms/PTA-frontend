@@ -9,6 +9,7 @@ import NavbarComponent from './components/NavbarComponent';
 import { Container } from 'react-bootstrap';
 import MapContainer from './pages/MapContainer';
 import Contact from './pages/Contact';
+import Analiza from './components/Analiza';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Routes>
             <Route path="/" element={<MapContainer />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/analiza" element={<Analiza />} />
           </Routes>
         </Container>
       </div>
