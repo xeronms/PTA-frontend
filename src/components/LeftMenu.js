@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 import './LeftMenu.css';
+import { ReactComponent as Stats } from '../components/images/statistics.svg';
 
 const LeftMenu = () => {
-  // const [visible, setVisible] = useState(true);
-  // const handleChange = () => {
-  //   setVisible((visible) => !visible);
-  // };
-
-  return <div className={'leftMenu-visible'}></div>;
+  return (
+    <div className="leftMenu">
+      <div className="statsContainer">
+        <Stats />
+      </div>
+    </div>
+  );
 };
 
 export default LeftMenu;
