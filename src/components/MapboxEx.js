@@ -1,16 +1,8 @@
 import { useState } from 'react';
 import { StaticMap, MapContext, NavigationControl } from 'react-map-gl';
 import DeckGL, { GeoJsonLayer, LineLayer } from 'deck.gl';
-import busStops from '../geodata/bus_stops.geojson';
-import testData from '../geodata/testData.json';
-import testData2 from '../geodata/testData2.json';
-import testData3 from '../geodata/testData3.json';
 import busDataPolygons from '../geodata/testBusStopsDataPolygons.json';
 import testRoutes from '../geodata/testRoutes.json';
-
-// source: Natural Earth http://www.naturalearthdata.com/ via geojson.xyz
-const AIR_PORTS =
-    'https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_airports.geojson';
 
 const INITIAL_VIEW_STATE = {
     latitude: 50.0928,
