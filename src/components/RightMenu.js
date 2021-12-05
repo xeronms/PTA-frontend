@@ -41,7 +41,7 @@ const RightMenu = () => {
             isMulti
             options={options}
             onChange={handleFrom}
-            maxMenuHeight={150}
+            maxMenuHeight={230}
           />
         </div>
         <div className="selectSpacer"></div>
@@ -54,7 +54,7 @@ const RightMenu = () => {
             isMulti
             options={options}
             onChange={handleTo}
-            maxMenuHeight={150}
+            maxMenuHeight={200}
           />
         </div>
       </div>
