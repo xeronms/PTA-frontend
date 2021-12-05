@@ -1,0 +1,9 @@
+.anContainer {
+  position: fixed;
+  top: 50px;
+  right: 0;
+  bottom: 0px;
+  left: 0;
+
+  border: 1px solid red;
+}
