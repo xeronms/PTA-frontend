@@ -4,6 +4,7 @@ import DeckGL, { GeoJsonLayer, LineLayer } from 'deck.gl';
 import busDataPolygons from '../geodata/testBusStopsDataPolygons.json';
 import testRoutes from '../geodata/testRoutes.json';
 import { MapContext1 } from '../contexts/MapContext1';
+import { BASEMAP } from '@deck.gl/carto';
 
 const INITIAL_VIEW_STATE = {
     latitude: 50.0928,
@@ -13,7 +14,9 @@ const INITIAL_VIEW_STATE = {
     pitch: 15,
 };
 
-const MAP_STYLE = 'mapbox://styles/mapbox/light-v10';
+// const MAP_STYLE = 'mapbox://styles/mapbox/light-v10';
+const MAP_STYLE =
+    'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json';
 const NAV_CONTROL_STYLE = {
     position: 'absolute',
     top: 10,
@@ -38,6 +41,14 @@ const MapboxEx = () => {
         const selectedStationsIds = Object.keys(map).map((item) =>
             parseInt(item)
         );
+
+        let tmp = [];
+        busDataPolygons.features.forEach((stationData) => {
+            const currentStationId = parseInt(stationData.id);
+            tmp.push(currentStationId);
+        });
+
+        console.log(tmp);
 
         busDataPolygons.features.forEach((stationData) => {
             const currentStationId = parseInt(stationData.id);
@@ -70,12 +81,19 @@ const MapboxEx = () => {
             pointRadiusMinPixels: 2,
             pointRadiusScale: 5,
             getPointRadius: 5,
-            getFillColor: [200, 0, 80, 180],
+            getFillColor: (info) => [
+                info.properties.count * 10,
+                100 - info.properties.count > 0
+                    ? 100 - info.properties.count
+                    : 0,
+                80,
+                180,
+            ],
             // Interactive props
             pickable: true,
             extruded: true,
             autoHighlight: true,
-            getElevation: (info) => info.properties.count * 30,
+            getElevation: (info) => info.properties.count * 2,
 
             strokeWeight: 30,
             stroked: false,
@@ -101,7 +119,12 @@ const MapboxEx = () => {
             controller={true}
             layers={layers}
             ContextProvider={MapContext.Provider}
-            getTooltip={({ object }) => object && `${object.properties.data}`}
+            getTooltip={({ object }) =>
+                object &&
+                (!Number.isInteger(object.properties.data)
+                    ? `${object.properties.data}  ${object.properties.count} wyjazdów`
+                    : `${object.properties.data}`)
+            }
         >
             <StaticMap
                 mapStyle={MAP_STYLE}

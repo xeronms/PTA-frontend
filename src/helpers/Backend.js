@@ -19,7 +19,7 @@ const Backend = () => {
     const busStopsGroupIds1 = data.from.map((item) => `${item}.0`);
     const busStopsGroupIds2 = ['66', '23'];
     const dateFrom = 1630447200; // 2021-09-01
-    const dateTo = 1630620000; // 2021-09-03
+    const dateTo =   1631491200; // 2021-09-03
     const hourFrom = '100'; // 01:00:00
     const hourTo = '2300'; // 23:00:00
 
