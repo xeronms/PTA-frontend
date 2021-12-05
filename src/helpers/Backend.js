@@ -1,62 +1,42 @@
 const Backend = () => {
-    //const ridesDbFilename = 'Dane_Ostateczne_1_transformed.csv';
+
+    // Na sztywno wpisana ścieka do bazy danych tekstowej przejazdów (czasy przetransformowane)
     const ridesDbFilename = 'Przejazdy_transformed.csv';
 
+    // zhardcodowane dane --> docelowo otrzymuję to z frontu *** 
+    const busStopsGroupIds1 = [
+        '9.0',
+        '7.0',
+        '12.0',
+        '173.0',
+    ];
+    const busStopsGroupIds2 = [
+        '66',
+        '23',
+    ];
+    const dateFrom = 1630447200; // 2021-09-01
+    const dateTo = 1630620000;   // 2021-09-03
+    const hourFrom = '100';      // 01:00:00
+    const hourTo = '2300';       // 23:00:00
+
+
+    // Button dla celów testowych
     const onClickHandler = async () => {
-        //try {
-        const ridesTable = await getDataFromCsv(ridesDbFilename);
+        try {
+            const ridesTable = await getDataFromCsv(ridesDbFilename);
 
-        // *** hard-codowane dane --> docelowo otrzymuję to z frontu *** 
-        // const busStopsGroupIds1 = [
-        //     'node/930800706',
-        //     'node/1628587025',
-        //     'node/1755122995',
-        //     'node/1894708577',
-        // ];
-        // const busStopsGroupIds2 = [
-        //     'node/6741894654',
-        //     'node/7113383020',
-        //     'node/7122978659',
-        //     'node/8150753124',
-        // ];
-        const busStopsGroupIds1 = [
-            '9.0',
-            '7.0',
-            '12.0',
-            '173.0',
-        ];
-        const busStopsGroupIds2 = [
-            '66',
-            '23',
-        ];
-        const dateFrom = 1630447200; // 2021-09-01
-        const dateTo = 1630620000;   // 2021-09-03
-        const hourFrom = '100';      // 01:00:00
-        const hourTo = '2300';       // 23:00:00
+            // Funkcjonalność #1
+            //fun1(ridesTable, busStopsGroupIds1, dateFrom, dateTo, hourFrom, hourTo);
 
-        // Funkcjonalność #1
-        // fun1(
-        //     ridesTable,
-        //     busStopsGroupIds1,
-        //     dateFrom,
-        //     dateTo,
-        //     hourFrom,
-        //     hourTo
-        // )
+            // Funkcjonalność #2
+            //fun2(ridesTable, busStopsGroupIds1, busStopsGroupIds2, dateFrom, dateTo, hourFrom, hourTo);
 
-        // Funkcjonalność #2
-        fun2(
-            ridesTable,
-            busStopsGroupIds1,
-            busStopsGroupIds2,
-            dateFrom,
-            dateTo,
-            hourFrom,
-            hourTo
-        )
-        //} catch (error) {
-        //    console.log('Bład przy wczytywaniu z pliku:\n' + error);
-        //}
+            // Funkcjonalność #3
+            fun3(ridesTable, busStopsGroupIds1, dateFrom, dateTo, hourFrom, hourTo);
+
+        } catch (error) {
+            console.log('Wystąpił błąd:\n' + error);
+        }
     };
 
     // ============== FUNKCJONALNOŚĆ #1 ==============
@@ -98,7 +78,7 @@ const Backend = () => {
                 }
             }
         }
-        console.log(busStopsOccurencesCount)
+        //console.log(busStopsOccurencesCount)
         return busStopsOccurencesCount;
     }
 
@@ -155,8 +135,28 @@ const Backend = () => {
                 }
             }
         }
-        console.log(connectionsArr);
+        //console.log(connectionsArr);
         return connectionsArr;
+    }
+
+    // ============== FUNKCJONALNOŚĆ #3 ==============
+    function fun3(
+        ridesTable,
+        busStopsGroupIds,
+        dateFrom,
+        dateTo,
+        hourFrom,
+        hourTo
+    ) {
+        const result = fun1(ridesTable, busStopsGroupIds, dateFrom, dateTo, hourFrom, hourTo);
+        let totalCount = 0;
+        for (let el in result) {
+            if (result.hasOwnProperty(el)) {
+                totalCount += parseInt(result[el]);
+            }
+        }
+        //console.log("total: " + totalCount)
+        return totalCount;
     }
 
     // ============== FUNKCJE POMOCNICZE ==============
