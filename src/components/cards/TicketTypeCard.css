@@ -1,0 +1,15 @@
+.ticketTypeContainer {
+  flex: 1;
+  background: white;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  box-shadow: 0px 0px 1em lightgray;
+  bottom: 20px;
+  height: 100px;
+  width: 400px;
+  margin: 0 10px 0 10px;
+}
+
+.svgTypes {
+  margin: 3% 0 0 12%;
+}

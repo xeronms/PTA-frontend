@@ -1,0 +1,9 @@
+.cardsContainer {
+  position: fixed;
+  left: 20px;
+  right: 20px;
+  height: 100px;
+  bottom: 20px;
+
+  display: flex;
+}

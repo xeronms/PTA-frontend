@@ -1,0 +1,26 @@
+.hourdCardContainer {
+  flex: 1;
+  display: block;
+  bottom: 20px;
+  height: 100px;
+  width: 400px;
+  background: white;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  box-shadow: 0px 0px 1em lightgray;
+  margin: 0 10px 0 15px;
+
+  align-items: center;
+  align-content: center;
+}
+
+.slider {
+  position: relative;
+  width: 93%;
+  margin: 3px 0 0 3.5%;
+}
+
+.chart {
+  position: relative;
+  margin: 10px 10px 0 10px;
+}
