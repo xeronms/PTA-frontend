@@ -1,5 +1,6 @@
 const Backend = () => {
-    const ridesDbFilename = 'Dane_Ostateczne_1_transformed.csv';
+    //const ridesDbFilename = 'Dane_Ostateczne_1_transformed.csv';
+    const ridesDbFilename = 'Przejazdy_transformed.csv';
 
     const onClickHandler = async () => {
         //try {
@@ -19,16 +20,14 @@ const Backend = () => {
         //     'node/8150753124',
         // ];
         const busStopsGroupIds1 = [
-            'ś dworzec kolejowy',
-            'ś policja',
-            'mn maroko',
-            'ś sąd',
+            '9.0',
+            '7.0',
+            '12.0',
+            '173.0',
         ];
         const busStopsGroupIds2 = [
-            'par mikołowska',
-            'ś dworzec kolejowy',
-            'ch osiedle',
-            'mn księżok',
+            '66',
+            '23',
         ];
         const dateFrom = 1630447200; // 2021-09-01
         const dateTo = 1630620000;   // 2021-09-03
@@ -106,8 +105,8 @@ const Backend = () => {
     // ============== FUNKCJONALNOŚĆ #2 ==============
     function fun2(
         ridesTable,
-        stopsFromIds,
-        stopsToIds,
+        busStopsFromIds,
+        busStopsToIds,
         dateFrom,
         dateTo,
         hourFrom,
@@ -117,6 +116,7 @@ const Backend = () => {
         let dateColumnIdx = 2
         let hourColumnIdx = 4
         let busStopFromIdColumnIdx = 5
+        let busStopToIdColumnIdx = 6
 
         // 1. Zastosowanie ograniczeń czasowych
         let rowsWithinTimeLimit = []
@@ -134,7 +134,29 @@ const Backend = () => {
         }
 
         // 2. 
-        console.log(rowsWithinTimeLimit);
+        let connectionsArr = []
+        for (let fromId of busStopsFromIds) {
+            for (let toId of busStopsToIds) {
+                const found = connectionsArr.some(
+                    el => (el.fromId === fromId && el.toId === toId));
+                if (!found) connectionsArr.push({
+                    fromId: fromId,
+                    toId: toId,
+                    count: 0
+                });
+
+                for (let row of rowsWithinTimeLimit) {
+                    console.log(row[busStopFromIdColumnIdx] + " " + row[busStopToIdColumnIdx]);
+                    if (row[busStopFromIdColumnIdx] == fromId &&
+                        row[busStopToIdColumnIdx] == toId) {
+                        //console.log("chuj")
+                        connectionsArr.find(el => (el.fromId === fromId && el.toId === toId))['count'] += 1;
+                    }
+                }
+            }
+        }
+        console.log(connectionsArr);
+        return connectionsArr;
     }
 
     // ============== FUNKCJE POMOCNICZE ==============

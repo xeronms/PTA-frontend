@@ -10,19 +10,9 @@ import { Container } from 'react-bootstrap';
 import MapContainer from './pages/MapContainer';
 import * as dfd from 'danfojs/dist/index';
 import Contact from './pages/Contact';
+import Backend from './helpers/Backend';
 
 function App() {
-    function load_csv() {
-        // const dfd = require('danfojs-node')
-        dfd.read_csv('Dane_Ostateczne_1.csv')
-            .then(async (df) => {
-                df['Przystanek_Początkowy'].head().print();
-            })
-            .catch((err) => {
-                console.log(err);
-            });
-    }
-    load_csv();
 
     return (
         <HashRouter>
@@ -35,9 +25,9 @@ function App() {
                     <Routes>
                         <Route path='/' element={<MapContainer />} />
                         <Route path='/contact' element={<Contact />} />
+                        <Route path='/backend' element={<Backend />} />
                     </Routes>
                 </Container>
-                <Backend></Backend>
             </div>
         </HashRouter>
     );
