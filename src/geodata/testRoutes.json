@@ -6,14 +6,14 @@
             "name": 34
         },
         "from": {
-            "name": "Przystanek 1",
+            "data": "Przystanek 1",
             "coordinates": [
                 18.4781511,
                 50.080914
             ]
         },
         "to": {
-            "name": "Przystanek 2",
+            "data": "Przystanek 2",
             "coordinates": [
                 18.544012,
                 50.0901108
