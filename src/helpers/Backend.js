@@ -36,25 +36,25 @@ const Backend = () => {
         const hourTo = '2300';       // 23:00:00
 
         // Funkcjonalność #1
-        fun1(
-            ridesTable,
-            busStopsGroupIds1,
-            dateFrom,
-            dateTo,
-            hourFrom,
-            hourTo
-        )
-
-        // Funkcjonalność #2
-        // fun2(
-        //     ridesDf,
+        // fun1(
+        //     ridesTable,
         //     busStopsGroupIds1,
-        //     busStopsGroupIds2,
         //     dateFrom,
         //     dateTo,
         //     hourFrom,
         //     hourTo
         // )
+
+        // Funkcjonalność #2
+        fun2(
+            ridesTable,
+            busStopsGroupIds1,
+            busStopsGroupIds2,
+            dateFrom,
+            dateTo,
+            hourFrom,
+            hourTo
+        )
         //} catch (error) {
         //    console.log('Bład przy wczytywaniu z pliku:\n' + error);
         //}
@@ -105,8 +105,7 @@ const Backend = () => {
 
     // ============== FUNKCJONALNOŚĆ #2 ==============
     function fun2(
-        ridesDf,
-        //busStopsDf,
+        ridesTable,
         stopsFromIds,
         stopsToIds,
         dateFrom,
@@ -114,13 +113,28 @@ const Backend = () => {
         hourFrom,
         hourTo
     ) {
-        // 1. tmp = SELECT * FROM tmp WHERE data > dateFrom AND data < dateTo;
-        // 2. tmp = SELECT * FROM tmp WHERE Godzina > hourFrom AND Godzina < hourTo;
+        let ridesTableLines = ridesTable.split('\n');
+        let dateColumnIdx = 2
+        let hourColumnIdx = 4
+        let busStopFromIdColumnIdx = 5
 
-        // 3. foreach fromId in stopsFromIds: 
-        //      foreach toId in stopsToIds:
-        //        SELECT COUNT(*) FROM ridesDfTimeFiltered WHERE przystanek_początkowy_id=fromId AND przystanek_koncowy_id=toId
+        // 1. Zastosowanie ograniczeń czasowych
+        let rowsWithinTimeLimit = []
+        for (let i = 0; i < ridesTableLines.length; i++) {
+            let colVals = ridesTableLines[i].split(',');
+            if (colVals[dateColumnIdx] >= dateFrom &&
+                colVals[dateColumnIdx] <= dateTo &&
+                colVals[hourColumnIdx] >= hourFrom &&
+                colVals[hourColumnIdx] <= hourTo) {
+                rowsWithinTimeLimit.push(colVals);
+            }
+        }
+        if (rowsWithinTimeLimit.length == 0) {
+            throw "No records found for given time boundaries!";
+        }
 
+        // 2. 
+        console.log(rowsWithinTimeLimit);
     }
 
     // ============== FUNKCJE POMOCNICZE ==============
