@@ -20,6 +20,8 @@ const NAV_CONTROL_STYLE = {
 };
 
 const MapboxEx = () => {
+
+    
     const onClick = (info) => {
         if (info.object) {
             // eslint-disable-next-line
@@ -68,7 +70,7 @@ const MapboxEx = () => {
             controller={true}
             layers={layers}
             ContextProvider={MapContext.Provider}
-            getTooltip={({ object }) => object && `${object.properties.name}`}
+            getTooltip={({ object }) => object && `${object.properties.data}`}
         >
             <StaticMap
                 mapStyle={MAP_STYLE}
